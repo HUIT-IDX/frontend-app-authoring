@@ -7,84 +7,84 @@ const messages = defineMessages({
   },
   noDataCard: {
     id: 'course-authoring.course-optimizer.noDataCard',
-    defaultMessage: 'No Scan data available',
+    defaultMessage: 'Không có dữ liệu quét',
   },
   linkToPrevCourseRun: {
     id: 'course-authoring.course-optimizer.linkToPrevCourseRun',
-    defaultMessage: 'Links to previous course run',
+    defaultMessage: 'Liên kết tới khóa học trước đó',
   },
   noResultsFound: {
     id: 'course-authoring.course-optimizer.noResultsFound',
-    defaultMessage: 'No results found',
+    defaultMessage: 'Không tìm thấy kết quả',
   },
   brokenLinksHeader: {
     id: 'course-authoring.course-optimizer.brokenLinksHeader',
-    defaultMessage: 'Broken links',
+    defaultMessage: 'Liên kết bị hỏng',
   },
   filterButtonLabel: {
     id: 'course-authoring.course-optimizer.filterButtonLabel',
-    defaultMessage: 'Filters',
+    defaultMessage: 'Bộ lọc',
   },
   lockedCheckboxLabel: {
     id: 'course-authoring.course-optimizer.lockedCheckboxLabel',
-    defaultMessage: 'Show Locked Course Files',
+    defaultMessage: 'Hiển thị các tệp khóa học bị khóa',
   },
   lockedLabel: {
     id: 'course-authoring.course-optimizer.lockedLabel',
-    defaultMessage: 'Locked',
+    defaultMessage: 'Đã khóa',
   },
   lockedInfoTooltip: {
     id: 'course-authoring.course-optimizer.lockedInfoTooltip',
-    defaultMessage: 'These course files are inaccessible for non-enrolled users so we cannot verify if the link can access the file.',
+    defaultMessage: 'Người dùng chưa đăng ký không thể truy cập các tệp này, vì vậy chúng tôi không thể xác minh xem liên kết có truy cập được tệp hay không.',
   },
   brokenLabel: {
     id: 'course-authoring.course-optimizer.brokenLabel',
-    defaultMessage: 'Broken',
+    defaultMessage: 'Bị hỏng',
   },
   brokenInfoTooltip: {
     id: 'course-authoring.course-optimizer.brokenInfoTooltip',
-    defaultMessage: `Links pointing to external websites, images, or videos that do not exist or are no longer available.
-      These links can cause issues for learners when they try to access the content.`,
+    defaultMessage: `Các liên kết dẫn đến trang web, hình ảnh hoặc video bên ngoài không tồn tại hoặc không còn khả dụng.
+      Những liên kết này có thể gây ra sự cố cho người học khi họ cố gắng truy cập nội dung.`,
   },
   manualLabel: {
     id: 'course-authoring.course-optimizer.manualLabel',
-    defaultMessage: 'Manual',
+    defaultMessage: 'Kiểm tra thủ công',
   },
   manualInfoTooltip: {
     id: 'course-authoring.course-optimizer.manualInfoTooltip',
-    defaultMessage: 'We couldn\'t verify this link. Please check it manually.',
+    defaultMessage: 'Chúng tôi không thể xác minh liên kết này. Vui lòng kiểm tra lại bằng tay.',
   },
   clearFilters: {
     id: 'course-authoring.course-optimizer.clearFilters',
-    defaultMessage: 'Clear filters',
+    defaultMessage: 'Xóa bộ lọc',
   },
   customPagesHeader: {
     id: 'course-authoring.course-optimizer.customPagesHeader',
-    defaultMessage: 'Custom pages',
+    defaultMessage: 'Trang tùy chỉnh',
   },
   courseUpdatesHeader: {
     id: 'course-authoring.course-optimizer.courseUpdatesHeader',
-    defaultMessage: 'Course updates',
+    defaultMessage: 'Cập nhật khóa học',
   },
   updateLinkError: {
     id: 'course-authoring.course-optimizer.updateLinkError',
-    defaultMessage: 'Link couldn\'t be updated.',
+    defaultMessage: 'Không thể cập nhật liên kết.',
   },
   updateLinksError: {
     id: 'course-authoring.course-optimizer.updateLinksError',
-    defaultMessage: 'Some links couldn\'t be updated.',
+    defaultMessage: 'Một số liên kết không thể cập nhật.',
   },
   updateButton: {
     id: 'course-authoring.scanResults.updateButton',
-    defaultMessage: 'Update',
+    defaultMessage: 'Cập nhật',
   },
   updated: {
     id: 'course-authoring.scanResults.updated',
-    defaultMessage: 'Updated',
+    defaultMessage: 'Đã cập nhật',
   },
   updateAllButtonText: {
     id: 'course-authoring.scanResults.updateAllButtonText',
-    defaultMessage: 'Update all',
+    defaultMessage: 'Cập nhật tất cả',
   },
 });
 

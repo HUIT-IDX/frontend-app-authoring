@@ -18,7 +18,7 @@ const messages = defineMessages({
   },
   activeCheckboxLabel: {
     id: 'course-authoring.files-and-videos.sort-and-filter.modal.filter.activeCheckbox.label',
-    defaultMessage: 'Active',
+    defaultMessage: 'Đang hoạt động',
     description: 'Checkbox label for Active checkbox in sort and filter modal',
   },
   inactiveCheckboxLabel: {

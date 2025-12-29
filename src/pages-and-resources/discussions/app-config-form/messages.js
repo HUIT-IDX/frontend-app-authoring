@@ -4,82 +4,82 @@ const messages = defineMessages({
   configurationChangeConsequence: {
     id: 'authoring.discussions.configurationChangeConsequences',
     defaultMessage:
-      'Students will lose access to any active or previous'
-      + ' discussion posts for your course.',
+      'Học viên sẽ mất quyền truy cập vào bất kỳ bài đăng thảo luận nào'
+      + ' trước đây hoặc hiện tại trong khóa học của bạn.',
     description:
       'Describes that, as a consequence of changing configuration,'
       + ' students will lose access posts on the course.',
   },
   configureApp: {
     id: 'authoring.discussions.configure.app',
-    defaultMessage: 'Configure {name}',
+    defaultMessage: 'Cấu hình {name}',
   },
   configure: {
     id: 'authoring.discussions.configure',
-    defaultMessage: 'Configure discussions',
+    defaultMessage: 'Cấu hình thảo luận',
   },
   ok: {
     id: 'authoring.discussions.ok',
-    defaultMessage: 'OK',
+    defaultMessage: 'Đồng ý',
     description: 'Button allowing the user to acknowledge the provider change.',
   },
   cancel: {
     id: 'authoring.discussions.cancel',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
     description: 'Button allowing the user to return to discussion provider configurations.',
   },
   confirm: {
     id: 'authoring.discussions.confirm',
-    defaultMessage: 'Confirm',
+    defaultMessage: 'Xác nhận',
     description: 'Button allowing the user to confirm Confirmation.',
   },
   confirmConfigurationChange: {
     id: 'authoring.discussions.confirmConfigurationChange',
-    defaultMessage: 'Are you sure you want to change the discussion settings?',
+    defaultMessage: 'Bạn có chắc chắn muốn thay đổi cài đặt thảo luận không?',
     description: 'Asks the user whether he/she really wants to change settings.',
   },
   confirmEnableDiscussionsLabel: {
     id: 'authoring.discussions.confirmEnableDiscussionsLabel',
-    defaultMessage: 'Enable discussions on units in graded subsections?',
+    defaultMessage: 'Bật thảo luận cho các đơn vị bài học (unit) trong các phần phụ (subsection) có tính điểm?',
     description: 'Asks the user whether he/she really wants to enable discussions on units in graded subsections.',
   },
   cancelEnableDiscussionsLabel: {
     id: 'authoring.discussions.cancelEnableDiscussionsLabel',
-    defaultMessage: 'Disable discussions on units in graded subsections?',
+    defaultMessage: 'Tắt thảo luận cho các đơn vị bài học (unit) trong các phần phụ (subsection) có tính điểm?',
     description: 'Asks the user whether he/she really wants to disable discussions on units in graded subsections.',
   },
   confirmEnableDiscussions: {
     id: 'authoring.discussions.confirmEnableDiscussions',
-    defaultMessage: 'Enabling this toggle will automatically enable discussion on all units in graded subsections, that are not timed exams.',
+    defaultMessage: 'Việc bật tùy chọn này sẽ tự động kích hoạt thảo luận trên tất cả các đơn vị bài học trong các phần phụ có tính điểm (trừ các kỳ thi giới hạn thời gian).',
     description: 'Asks the user whether he/she really wants to enable discussions on units in graded subsections.',
   },
   cancelEnableDiscussions: {
     id: 'authoring.discussions.cancelEnableDiscussions',
-    defaultMessage: 'Disabling this toggle will automatically disable discussion on all units in graded subsections. Discussion topics containing at least 1 thread will be listed and accessible under “Archived” in Topics tab on the Discussions page.',
+    defaultMessage: 'Việc tắt tùy chọn này sẽ tự động vô hiệu hóa thảo luận trên tất cả các đơn vị bài học trong các phần phụ có tính điểm. Các chủ đề thảo luận có ít nhất 1 luồng trao đổi sẽ được liệt kê và có thể truy cập tại mục “Đã lưu trữ” trong tab Chủ đề trên trang Thảo luận.',
     description: 'Asks the user whether he/she really wants to disable discussions on units in graded subsections.',
   },
   backButton: {
     id: 'authoring.discussions.backButton',
-    defaultMessage: 'Back',
+    defaultMessage: 'Quay lại',
     description: 'Button allowing the user to return to discussion app selection.',
   },
   saveButton: {
     id: 'authoring.discussions.saveButton',
-    defaultMessage: 'Save',
+    defaultMessage: 'Lưu',
     description: 'Button allowing the user to submit their discussion configuration.',
   },
   savingButton: {
     id: 'authoring.discussions.savingButton',
-    defaultMessage: 'Saving',
+    defaultMessage: 'Đang lưu',
     description: 'Button label when the discussion configuration is being submitted.',
   },
   savedButton: {
     id: 'authoring.discussions.savedButton',
-    defaultMessage: 'Saved',
+    defaultMessage: 'Đã lưu',
     description: 'Button label when the discussion configuration has been successfully submitted.',
   },
 
-  // App names
+  // App names (Giữ nguyên tên riêng hoặc dịch theo hệ thống)
   'appName-piazza': {
     id: 'authoring.discussions.appConfigForm.appName-piazza',
     defaultMessage: 'Piazza',
@@ -107,7 +107,7 @@ const messages = defineMessages({
   },
   'appName-legacy': {
     id: 'authoring.discussions.appConfigForm.appName-legacy',
-    defaultMessage: 'Open edX (legacy)',
+    defaultMessage: 'Open edX (cũ)',
     description: 'The name of the Legacy Open edX Discussions app.',
   },
   'appName-openedx': {
@@ -117,192 +117,192 @@ const messages = defineMessages({
   },
   divisionByGroup: {
     id: 'authoring.discussions.builtIn.divisionByGroup',
-    defaultMessage: 'Cohorts',
+    defaultMessage: 'Nhóm học tập (Cohorts)',
   },
   divideByCohortsLabel: {
     id: 'authoring.discussions.builtIn.divideByCohorts.label',
-    defaultMessage: 'Divide discussions by cohorts',
-    description: 'Label for a switch that enables dividing discussions by cohorts.  allowDivisionByUnit, divideCourseWideTopics, divideGeneralTopic, and divideQuestionsForTAs are only used if this setting is true.',
+    defaultMessage: 'Chia thảo luận theo nhóm học tập',
+    description: 'Label for a switch that enables dividing discussions by cohorts.',
   },
   divideByCohortsHelp: {
     id: 'authoring.discussions.builtIn.divideByCohorts.help',
-    defaultMessage: 'Learners will only be able to view and respond to discussions posted by members of their cohort.',
+    defaultMessage: 'Người học sẽ chỉ có thể xem và phản hồi các thảo luận được đăng bởi các thành viên trong cùng nhóm học tập của họ.',
     description: 'Help text for a switch that enables dividing discussions by cohorts.',
   },
   divideCourseTopicsByCohortsLabel: {
     id: 'authoring.discussions.builtIn.divideCourseTopicsByCohorts.label',
-    defaultMessage: 'Divide course-wide discussion topics',
+    defaultMessage: 'Chia các chủ đề thảo luận chung toàn khóa học',
     description: 'Label for a switch that enables dividing course wide topics by cohorts.',
   },
   divideCourseTopicsByCohortsHelp: {
     id: 'authoring.discussions.builtIn.divideCourseTopicsByCohorts.help',
-    defaultMessage: 'Choose which of your general course-wide discussion topics you would like to divide.',
+    defaultMessage: 'Chọn chủ đề thảo luận chung nào mà bạn muốn phân chia theo nhóm học tập.',
     description: 'Help text asking the user to pick course-wide topics that should be divided by cohort.',
   },
   divideGeneralTopic: {
     id: 'authoring.discussions.builtIn.divideGeneralTopic.label',
-    defaultMessage: 'General',
+    defaultMessage: 'Chung',
     description: 'Label for a checkbox allowing a user to divide the General course wide topic by cohorts.',
   },
   divideQuestionsForTAsTopic: {
     id: 'authoring.discussions.builtIn.divideQuestionsForTAsTopic.label',
-    defaultMessage: 'Questions for the TAs',
-    description: 'Label for a checkbox allowing a user to divide the Questions for the TAs (TA stands for "teaching assistant") course wide topic by cohorts.',
+    defaultMessage: 'Câu hỏi cho Trợ giảng (TA)',
+    description: 'Label for a checkbox allowing a user to divide the Questions for the TAs.',
   },
   cohortsEnabled: {
     id: 'authoring.discussions.builtIn.cohortsEnabled.label',
-    defaultMessage: 'To adjust these settings, enable cohorts on the ',
+    defaultMessage: 'Để điều chỉnh các cài đặt này, hãy bật tính năng nhóm học tập trên ',
     description: 'Label text informing the user to enable cohort',
   },
   instructorDashboard: {
     id: 'authoring.discussions.builtIn.instructorDashboard.label',
-    defaultMessage: 'instructor dashboard',
+    defaultMessage: 'bảng điều khiển dành cho giảng viên',
     description: 'Label text for instructor dashboard',
   },
   // In-context discussion fields
   visibilityInContext: {
     id: 'authoring.discussions.builtIn.visibilityInContext',
-    defaultMessage: 'Visibility of in-context discussions',
+    defaultMessage: 'Hiển thị thảo luận theo ngữ cảnh (in-context)',
   },
   gradedUnitPagesLabel: {
     id: 'authoring.discussions.builtIn.gradedUnitPages.label',
-    defaultMessage: 'Enable discussions on units in graded subsections',
+    defaultMessage: 'Bật thảo luận trên các đơn vị bài học có tính điểm',
   },
   gradedUnitPagesHelp: {
     id: 'authoring.discussions.builtIn.gradedUnitPages.help',
-    defaultMessage: 'Allow learners to engage with discussion on all graded unit pages except timed exams.',
+    defaultMessage: 'Cho phép người học tham gia thảo luận trên tất cả các trang đơn vị bài học có tính điểm, ngoại trừ các kỳ thi giới hạn thời gian.',
   },
   groupInContextSubsectionLabel: {
     id: 'authoring.discussions.builtIn.groupInContextSubsection.label',
-    defaultMessage: 'Group in context discussion at the subsection level',
+    defaultMessage: 'Gom nhóm thảo luận ngữ cảnh ở cấp độ phần phụ (subsection)',
   },
   groupInContextSubsectionHelp: {
     id: 'authoring.discussions.builtIn.groupInContextSubsection.help',
-    defaultMessage: 'Learners will be able to view any post in the sub-section no matter which unit page they are viewing. While this is not recommended, if your course has short learning sequences or low enrollment grouping may increase engagement.',
+    defaultMessage: 'Người học sẽ có thể xem bất kỳ bài đăng nào trong cùng phần phụ bất kể họ đang xem trang đơn vị bài học nào. Mặc dù điều này không được khuyến khích, nhưng nếu khóa học của bạn có trình tự học ngắn hoặc số lượng đăng ký thấp, việc gom nhóm có thể tăng mức độ tương tác.',
   },
 
   // Anonymous posting fields
   anonymousPosting: {
     id: 'authoring.discussions.builtIn.anonymousPosting',
-    defaultMessage: 'Anonymous posting',
+    defaultMessage: 'Đăng bài ẩn danh',
   },
   allowAnonymousPostsLabel: {
     id: 'authoring.discussions.builtIn.allowAnonymous.label',
-    defaultMessage: 'Allow anonymous discussion posts',
+    defaultMessage: 'Cho phép đăng thảo luận ẩn danh',
   },
   allowAnonymousPostsHelp: {
     id: 'authoring.discussions.builtIn.allowAnonymous.help',
-    defaultMessage: 'If enabled, learners can create posts that are anonymous to all users.',
+    defaultMessage: 'Nếu được bật, người học có thể tạo các bài đăng ẩn danh đối với tất cả người dùng khác.',
   },
   allowAnonymousPostsPeersLabel: {
     id: 'authoring.discussions.builtIn.allowAnonymousPeers.label',
-    defaultMessage: 'Allow anonymous discussion posts to peers',
+    defaultMessage: 'Cho phép đăng thảo luận ẩn danh với bạn học',
   },
   allowAnonymousPostsPeersHelp: {
     id: 'authoring.discussions.builtIn.allowAnonymousPeers.help',
-    defaultMessage: 'Learners will be able to post anonymously to other peers but all posts will be visible to course staff.',
+    defaultMessage: 'Người học có thể đăng bài ẩn danh với các bạn học khác, nhưng danh tính vẫn sẽ hiển thị đối với đội ngũ quản trị khóa học.',
   },
 
   // Reported Email Notifications
   reportedContentEmailNotifications: {
     id: 'authoring.discussions.builtIn.reportedContentEmailNotifications',
-    defaultMessage: 'Notifications',
+    defaultMessage: 'Thông báo',
   },
   reportedContentEmailNotificationsLabel: {
     id: 'authoring.discussions.builtIn.reportedContentEmailNotifications.label',
-    defaultMessage: 'Email notifications for reported content',
+    defaultMessage: 'Thông báo qua email về nội dung bị báo cáo',
   },
   reportedContentEmailNotificationsHelp: {
     id: 'authoring.discussions.builtIn.reportedContentEmailNotifications.help',
-    defaultMessage: 'Discussion Admins, Moderators, Community TAs and Group Community TAs (only for their own cohort) will receive an email notification when content is reported.',
+    defaultMessage: 'Quản trị viên thảo luận, Người điều phối, Trợ giảng cộng đồng và Trợ giảng nhóm (chỉ đối với nhóm học tập của họ) sẽ nhận được thông báo qua email khi có nội dung bị báo cáo.',
   },
 
   // Discussion Topics
   discussionTopics: {
     id: 'authoring.discussions.discussionTopics',
-    defaultMessage: 'Discussion topics',
+    defaultMessage: 'Chủ đề thảo luận',
   },
   discussionTopicsLabel: {
     id: 'authoring.discussions.discussionTopics.label',
-    defaultMessage: 'General discussion topics',
+    defaultMessage: 'Chủ đề thảo luận chung',
     description: 'Label for a discussion topic section allowing a user to add new topic.',
   },
   discussionTopicsHelp: {
     id: 'authoring.discussions.discussionTopics.help',
-    defaultMessage: 'Discussions can include general topics not contained to the course structure. All courses have a general topic by default.',
+    defaultMessage: 'Thảo luận có thể bao gồm các chủ đề chung không nằm trong cấu trúc khóa học. Tất cả các khóa học đều có một chủ đề chung theo mặc định.',
     description: 'Help text for adding new discussion topics that in general discussion topic section.',
   },
   discussionTopicRequired: {
     id: 'authoring.discussions.discussionTopic.required',
-    defaultMessage: 'Topic name is a required field',
+    defaultMessage: 'Tên chủ đề là trường bắt buộc',
     description: 'Tells the user that the discussion topic field is required and must have a value.',
   },
   discussionTopicNameAlreadyExist: {
     id: 'authoring.discussions.discussionTopic.alreadyExistError',
-    defaultMessage: 'It looks like this name is already in use',
+    defaultMessage: 'Có vẻ như tên này đã được sử dụng',
     description: 'Tells the user that the discussion topic name already in use and must have a unique name.',
   },
   addTopicButton: {
     id: 'authoring.discussions.addTopicButton',
-    defaultMessage: 'Add topic',
+    defaultMessage: 'Thêm chủ đề',
     description: 'Button label when Add a new discussion topic.',
   },
   deleteButton: {
     id: 'authoring.discussions.deleteButton',
-    defaultMessage: 'Delete',
+    defaultMessage: 'Xóa',
     description: 'Button label when delete discussion topic from conformation card.',
   },
   cancelButton: {
     id: 'authoring.discussions.cancelButton',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Hủy',
     description: 'Button label when cancel discussion topic deletion conformation.',
   },
   discussionTopicDeletionHelp: {
     id: 'authoring.discussions.discussionTopicDeletion.help',
-    defaultMessage: 'edX recommends that you do not delete discussion topics once your course is running.',
+    defaultMessage: 'edX khuyến cáo bạn không nên xóa các chủ đề thảo luận khi khóa học đang vận hành.',
     description: 'Help text for delete a discussion topic from discussion topic section.',
   },
   discussionTopicDeletionLabel: {
     id: 'authoring.discussions.discussionTopicDeletion.label',
-    defaultMessage: 'Delete this topic?',
+    defaultMessage: 'Xóa chủ đề này?',
     description: 'Label for discussion topic delete popup allowing a user to delete a topic.',
   },
   renameGeneralTopic: {
     id: 'authoring.discussions.builtIn.renameGeneralTopic.label',
-    defaultMessage: 'Rename general topic',
+    defaultMessage: 'Đổi tên chủ đề chung',
     description: 'Label for default topic allowing user to rename default general topic',
   },
   generalTopicHelp: {
     id: 'authoring.discussions.generalTopicHelp.help',
-    defaultMessage: 'This is the default discussion topic for your course.',
+    defaultMessage: 'Đây là chủ đề thảo luận mặc định cho khóa học của bạn.',
     description: 'Help text for general discussion topic collapsible card.',
   },
   configureAdditionalTopic: {
     id: 'authoring.discussions.builtIn.configureAdditionalTopic.label',
-    defaultMessage: 'Configure topic',
+    defaultMessage: 'Cấu hình chủ đề',
     description: 'Label for Additional topic allowing user to configure additional topic name',
   },
   addTopicHelpText: {
     id: 'authoring.discussions.addTopicHelpText',
-    defaultMessage: 'Choose a unique name for your topic',
+    defaultMessage: 'Chọn một tên duy nhất cho chủ đề của bạn',
     description: 'Help text for input field in adding a discussion topic',
   },
   // Restricted dates
   restrictedStartDateHelp: {
     id: 'authoring.discussions.restrictedStartDate.help',
-    defaultMessage: 'Enter a start date, e.g. 12/10/2023',
+    defaultMessage: 'Nhập ngày bắt đầu, ví dụ: 10/12/2023',
   },
   restrictedEndDateHelp: {
     id: 'authoring.discussions.restrictedEndDate.help',
-    defaultMessage: 'Enter an end date, e.g. 12/17/2023',
+    defaultMessage: 'Nhập ngày kết thúc, ví dụ: 17/12/2023',
   },
   restrictedStartTimeHelp: {
     id: 'authoring.discussions.restrictedStartTime.help',
-    defaultMessage: 'Enter a start time, e.g. 09:00 AM',
+    defaultMessage: 'Nhập giờ bắt đầu, ví dụ: 09:00 SA',
   },
   restrictedEndTimeHelp: {
     id: 'authoring.discussions.restrictedEndTime.help',
-    defaultMessage: 'Enter an end time, e.g. 05:00 PM',
+    defaultMessage: 'Nhập giờ kết thúc, ví dụ: 05:00 CH',
   },
   restrictedDatesStatus: {
     id: 'authoring.restrictedDates.status',
@@ -310,149 +310,149 @@ const messages = defineMessages({
   },
   restrictedStartDateRequired: {
     id: 'authoring.restrictedDates.startDate.required',
-    defaultMessage: 'Start date is a required field',
+    defaultMessage: 'Ngày bắt đầu là trường bắt buộc',
     description: 'Tells the user that the restricted dates must have start date and it is required.',
   },
   restrictedEndDateRequired: {
     id: 'authoring.restrictedDates.endDate.required',
-    defaultMessage: 'End date is a required field',
+    defaultMessage: 'Ngày kết thúc là trường bắt buộc',
     description: 'Tells the user that the restricted dates must have end date and it is required.',
   },
   restrictedStartDateInPast: {
     id: 'authoring.restrictedDates.startDate.inPast',
-    defaultMessage: 'Start date cannot be after end date',
+    defaultMessage: 'Ngày bắt đầu không thể sau ngày kết thúc',
     description: 'Tells the user that the restricted start date cannot be in past and cannot be after end date',
   },
   restrictedEndDateInPast: {
     id: 'authoring.restrictedDates.endDate.inPast',
-    defaultMessage: 'End date cannot be before start date',
+    defaultMessage: 'Ngày kết thúc không thể trước ngày bắt đầu',
     description: 'Tells the user that the restricted end date cannot be in past and cannot be before start date',
   },
   restrictedStartTimeInPast: {
     id: 'authoring.restrictedDates.startTime.inPast',
-    defaultMessage: 'Start time cannot be after end time',
+    defaultMessage: 'Giờ bắt đầu không thể sau giờ kết thúc',
     description: 'Tells the user that the restricted start time cannot be in past and cannot be after end time',
   },
   restrictedEndTimeInPast: {
     id: 'authoring.restrictedDates.endTime.inPast',
-    defaultMessage: 'End time cannot be before start time',
+    defaultMessage: 'Giờ kết thúc không thể trước giờ bắt đầu',
     description: 'Tells the user that the restricted end time cannot be in past and cannot be before start time',
   },
   restrictedStartTimeInValidFormat: {
     id: 'authoring.restrictedDates.startTime.inValidFormat',
-    defaultMessage: 'Enter a valid start time',
+    defaultMessage: 'Vui lòng nhập giờ bắt đầu hợp lệ',
     description: 'Tells the user that the restricted start time format is in valid',
   },
   restrictedEndTimeInValidFormat: {
     id: 'authoring.restrictedDates.endTime.inValidFormat',
-    defaultMessage: 'Enter a valid end time',
+    defaultMessage: 'Vui lòng nhập giờ kết thúc hợp lệ',
     description: 'Tells the user that the restricted end time format is in valid',
   },
   restrictedStartDateInValidFormat: {
     id: 'authoring.restrictedDates.startDate.inValidFormat',
-    defaultMessage: 'Enter a valid start Date',
+    defaultMessage: 'Vui lòng nhập ngày bắt đầu hợp lệ',
     description: 'Tells the user that the restricted start date format is in valid',
   },
   restrictedEndDateInValidFormat: {
     id: 'authoring.restrictedDates.endDate.inValidFormat',
-    defaultMessage: 'Enter a valid end date',
+    defaultMessage: 'Vui lòng nhập ngày kết thúc hợp lệ',
     description: 'Tells the user that the restricted end date format is in valid',
   },
   discussionRestrictionLabel: {
     id: 'authoring.discussions.builtIn.discussionRestriction.label',
-    defaultMessage: 'Discussion restrictions',
+    defaultMessage: 'Hạn chế thảo luận',
   },
   discussionRestrictionHelp: {
     id: 'authoring.discussions.discussionRestriction.help',
-    defaultMessage: 'If enabled, learners will not be able to post in discussions.',
+    defaultMessage: 'Nếu được bật, người học sẽ không thể đăng bài trong các thảo luận.',
   },
   discussionRestrictionDatesHelp: {
     id: 'authoring.discussions.discussionRestrictionDates.help',
-    defaultMessage: 'If added, learners will not be able to post in discussions between these dates.',
+    defaultMessage: 'Nếu được thêm, người học sẽ không thể đăng bài trong các thảo luận giữa những ngày này.',
   },
   addRestrictedDatesButton: {
     id: 'authoring.discussions.addRestrictedDatesButton',
-    defaultMessage: 'Add restricted dates',
+    defaultMessage: 'Thêm ngày hạn chế',
   },
   configureRestrictedDates: {
     id: 'authoring.discussions.builtIn.configureRestrictedDates.label',
-    defaultMessage: 'Configure restricted date range',
+    defaultMessage: 'Cấu hình khoảng thời gian hạn chế',
   },
   activeRestrictedDatesDeletionLabel: {
     id: 'authoring.discussions.activeRestrictedDatesDeletion.label',
-    defaultMessage: 'Delete active restricted dates?',
+    defaultMessage: 'Xóa các ngày hạn chế đang có hiệu lực?',
     description: 'Label for active restricted dates delete popup allowing a user to delete a restricted date range.',
   },
   activeRestrictedDatesDeletionHelp: {
     id: 'authoring.discussions.activeRestrictedDatesDeletion.help',
-    defaultMessage: 'These restricted dates are currently active. If deleted, learners will be able to post in discussions during these dates. Are you sure you want to proceed?',
+    defaultMessage: 'Các giới hạn thời gian này hiện đang có hiệu lực. Nếu bị xóa, người học sẽ có thể đăng bài thảo luận trong khoảng thời gian này. Bạn có chắc chắn muốn tiếp tục?',
     description: 'Help text for delete a active restricted dates from restricted dates section.',
   },
   completeRestrictedDatesDeletionHelp: {
     id: 'authoring.discussions.completeRestrictedDatesDeletion.help',
-    defaultMessage: 'Are you sure you want to delete these restricted dates?',
+    defaultMessage: 'Bạn có chắc chắn muốn xóa các ngày hạn chế này không?',
     description: 'Help text for delete a complete restricted dates from restricted dates section.',
   },
   restrictedDatesDeletionLabel: {
     id: 'authoring.discussions.restrictedDatesDeletion.label',
-    defaultMessage: 'Delete restricted dates?',
+    defaultMessage: 'Xóa các ngày hạn chế?',
     description: 'Label for restricted dates delete popup allowing a user to delete a restricted date range.',
   },
   restrictedDatesDeletionHelp: {
     id: 'authoring.discussions.restrictedDatesDeletion.help',
-    defaultMessage: 'If deleted, learners will be able to post in discussions during these dates.',
+    defaultMessage: 'Nếu bị xóa, người học sẽ có thể đăng bài thảo luận trong khoảng thời gian này.',
     description: 'Help text for delete a upcoming restricted dates from restricted dates section.',
   },
   discussionRestrictionOffLabelHelpText: {
     id: 'authoring.discussions.discussionRestrictionOff.label',
-    defaultMessage: 'If enabled, learners will be able to post in discussions',
+    defaultMessage: 'Nếu được bật, người học sẽ có thể đăng bài trong các thảo luận',
   },
   discussionRestrictionOnLabelHelpText: {
     id: 'authoring.discussions.discussionRestrictionOn.label',
-    defaultMessage: 'If enabled, learners will not be able to post in discussions',
+    defaultMessage: 'Nếu được bật, người học sẽ không thể đăng bài trong các thảo luận',
   },
   discussionRestrictionScheduledLabelHelpText: {
     id: 'authoring.discussions.discussionRestrictionScheduled.label',
-    defaultMessage: 'If added, learners will not be able to post in discussions between these dates.',
+    defaultMessage: 'Nếu được thêm, người học sẽ không thể đăng bài trong các thảo luận giữa những ngày này.',
   },
   enableRestrictedDatesConfirmationLabel: {
     id: 'authoring.discussions.enableRestrictedDatesConfirmation.label',
-    defaultMessage: 'Enable restricted dates?',
+    defaultMessage: 'Bật các ngày hạn chế?',
   },
   enableRestrictedDatesConfirmationHelp: {
     id: 'authoring.discussions.enableRestrictedDatesConfirmation.help',
-    defaultMessage: 'Learners will not be able to post in discussions.',
+    defaultMessage: 'Người học sẽ không thể đăng bài trong các thảo luận.',
   },
   deleteAltText: {
     id: 'authoring.topics.delete',
-    defaultMessage: 'Delete Topic',
+    defaultMessage: 'Xóa chủ đề',
   },
   expandAltText: {
     id: 'authoring.topics.expand',
-    defaultMessage: 'Expand',
+    defaultMessage: 'Mở rộng',
   },
   collapseAltText: {
     id: 'authoring.topics.collapse',
-    defaultMessage: 'Collapse',
+    defaultMessage: 'Thu gọn',
   },
   startDateLabel: {
     id: 'authoring.restrictedDates.start.date',
-    defaultMessage: 'Start date',
+    defaultMessage: 'Ngày bắt đầu',
     description: 'Label for start date field',
   },
   startTimeLabel: {
     id: 'authoring.restrictedDates.start.time',
-    defaultMessage: 'Start time (optional)',
+    defaultMessage: 'Giờ bắt đầu (tùy chọn)',
     description: 'label for start time field',
   },
   endDateLabel: {
     id: 'authoring.restrictedDates.end.date',
-    defaultMessage: 'End date',
+    defaultMessage: 'Ngày kết thúc',
     description: 'label for end date field',
   },
   endTimeLabel: {
     id: 'authoring.restrictedDates.end.time',
-    defaultMessage: 'End time (optional)',
+    defaultMessage: 'Giờ kết thúc (tùy chọn)',
     description: 'label for end time field',
   },
 });

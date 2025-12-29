@@ -3,11 +3,11 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   sectionHighlightsBadge: {
     id: 'course-authoring.course-outline.section.badge.section-highlights',
-    defaultMessage: 'Section highlights',
+    defaultMessage: 'Nội dung nổi bật của phần',
   },
   subsectionPickerModalTitle: {
     id: 'course-authoring.course-outline.section.subsection-modal.title',
-    defaultMessage: 'Select subsection',
+    defaultMessage: 'Chọn chương',
     description: 'Subsection modal picker title text in outline',
   },
 });

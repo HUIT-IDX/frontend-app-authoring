@@ -78,7 +78,7 @@ const messages = defineMessages({
   },
   activeBadgeText: {
     id: 'course-authoring.course-outline.status-bar.active.badge.text',
-    defaultMessage: 'Active',
+    defaultMessage: 'Đang hoạt động',
     description: 'Active Badge shown in course outline when the course is active, i.e., course has started and not ended yet.',
   },
   archivedBadgeText: {

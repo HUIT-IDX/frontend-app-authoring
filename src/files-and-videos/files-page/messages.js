@@ -48,7 +48,7 @@ const messages = defineMessages({
   },
   activeCheckboxLabel: {
     id: 'course-authoring.files-and-videos.file-info.activeCheckbox.label',
-    defaultMessage: 'Active',
+    defaultMessage: 'Đang hoạt động',
     description: 'Label for active checkbox in filter section of sort and filter modal',
   },
   inactiveCheckboxLabel: {
@@ -137,7 +137,7 @@ const messages = defineMessages({
   },
   fileActiveColumn: {
     id: 'course-authoring.files-and-uploads.file-info.fileActive.column',
-    defaultMessage: 'Active',
+    defaultMessage: 'Đang hoạt động',
     description: 'Title of the Active column in the file list view',
   },
   fileAccessColumn: {

@@ -35,7 +35,7 @@ describe('useValidateInputBlock', () => {
   beforeEach(() => {
     jest.clearAllMocks();
     mockedGetConfig.mockReturnValue({
-      STUDIO_BASE_URL: 'http://studio.local.openedx.io:8001',
+      STUDIO_BASE_URL: 'http://studio.local.openedx.io:18001',
     });
   });
 
@@ -60,7 +60,7 @@ describe('useValidateInputBlock', () => {
     });
 
     expect(mockedValidateBlockNumericInput).toHaveBeenCalledWith({
-      studioEndpointUrl: 'http://studio.local.openedx.io:8001',
+      studioEndpointUrl: 'http://studio.local.openedx.io:18001',
       data: { formula: testFormula },
     });
     expect(mockedCamelCaseObject).toHaveBeenCalledWith(mockResponse.data);
